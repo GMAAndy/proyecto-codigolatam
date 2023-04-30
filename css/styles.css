@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+ul {
+    list-style: none;
+    display:flex
+    
+}
+
+a  {
+    text-decoration: none;
+    color: inherit;
+    padding: 15px 20px;
+
+}
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+
+body {
+    background-color: #fbfbfb;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+main #curriculum {
+    
+    background-color: #af599e;
+    font-size: 20px;
+    color: #fbfbfb;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    text-align: center;
+    
+}
+
+#centrar {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#Contacto {
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #eecde7;
+    place place-items: center;
+    display: block;
+    justify-content: center;
+    display: grid
+    
+}
+
+footer {
+    background-color: #af599e;
+    text-align: center;
+    height: 90px;
+    place-items: center;
+    display: grid;
+    color: #fbfbfb;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    /* Tuve que anclar el footer a la parte de abajo porque me aparecía un espacio en blanco que no supe cómo solucionarlo, busqué en internet y me dice que es posible que sea por el poco contenido que tiene la web. Me quedó esa duda*/
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px; color: rgb(136, 138, 133);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #fbfbfb;
+
+}
+
+header nav {
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    color: rgb(61, 60, 60);
+
+}
+
+
+
+header img {
+    width: 130px;
+    height: 80px;
+
+}
+
+
+#Gatito {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Inicio img {
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+#Inicio {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#Contactanos div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-bottom: 20px;
+
+}
+
+#Contactanos img {
+    width: 50px;
+
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.2em;
+}
